@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bankOneData from "../bankOneData";
+import bankOneData from "../../bankOneData";
 
 const DrumPadGroup = (props) => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const DrumPadGroup = (props) => {
   });
   const playAudio = (drumPadId) => {
     const audio = document.getElementById(drumPadId);
+    audio.currentTime = 0;
     audio.play();
   };
   return (
