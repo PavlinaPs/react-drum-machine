@@ -1,0 +1,12 @@
+:root {
+  --color-dark: #2f3135;
+  --color-4: #6c727b;
+  --color-3: #638a98;
+  --color-2: #56a3a0;
+  --color-1: #70b98f;
+  --color-light: #aec774;
+  --color-light-gray: #d3d3d3;
+
+  --ff: "Ubuntu", sans-serif;
+  --fw-bold: 700;
+}

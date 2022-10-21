@@ -1,0 +1,25 @@
+.drum-pad {
+  width: 4rem;
+  height: 3rem;
+  font-family: var(--ff);
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  color: var(--color-dark);
+  background-color: var(--color-light-gray);
+  border: 0.2rem solid var(--color-4);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--color-dark);
+  border-radius: 20%;
+}
+
+.drum-pad:not(:disabled) {
+  cursor: pointer;
+}
+
+.drum-pad:not(:disabled):hover {
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
+}
+
+.drum-pad:disabled {
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+}

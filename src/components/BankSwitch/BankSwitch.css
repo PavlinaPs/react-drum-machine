@@ -1,0 +1,26 @@
+.switch-toggle-button {
+  display: block;
+  margin: 1.5rem auto;
+  width: 9rem;
+  height: 2rem;
+  color: var(--color-dark);
+  background-color: var(--color-1);
+  font-family: var(--ff);
+  font-weight: var(--fw-bold);
+  border: 0.2rem solid var(--color-4);
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--color-dark);
+}
+
+.switch-toggle-button:not(:disabled) {
+  cursor: pointer;
+}
+
+.switch-toggle-button:not(:disabled):hover {
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
+}
+
+.switch-toggle-button:disabled {
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+}

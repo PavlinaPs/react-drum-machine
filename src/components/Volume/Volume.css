@@ -1,0 +1,23 @@
+.volume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 0.5rem;
+  margin-block: 1rem;
+  font-family: var(--ff);
+  color: var(--color-dark);
+}
+
+.volume-container > label,
+.volume-percent {
+  text-align: end;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+.volume-container > label {
+  text-align: center;
+}
+
+.volume-percent {
+  padding-right: 1.75rem;
+}

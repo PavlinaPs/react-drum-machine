@@ -3,11 +3,41 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: pink;
+}
+
+.App {
+  width: 300px;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to top,
+    #6c727b,
+    #638a98,
+    #56a3a0,
+    #70b98f,
+    #aec774
+  );
+  border: 5px solid #aec774;
+  border-radius: 10px;
+}
+
+.title-power-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .title-power-container > h1 {
+  margin: 0;
+  font-family: var(--ff);
+  font-weight: 700;
+  color: var(--color-dark);
 }
 
 .drum-pad-group {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 4rem);
+  justify-content: center;
   grid-gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }

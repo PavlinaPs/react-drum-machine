@@ -1,0 +1,18 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: auto;
+  margin-top: 1rem;
+  font-family: var(--ff);
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  color: var(--color-light);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  background-color: var(--color-dark);
+  border: 0.2rem solid var(--color-4);
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
+  border-radius: 0.5rem;
+}

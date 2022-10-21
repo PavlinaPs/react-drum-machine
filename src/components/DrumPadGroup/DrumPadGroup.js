@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import "../shared.css";
+import "./DrumPadGroup.css";
 
 const DrumPadGroup = (props) => {
   useEffect(() => {
@@ -11,8 +13,14 @@ const DrumPadGroup = (props) => {
     });
   });
   const playAudio = (drumPadId) => {
+    const audios = document.getElementsByClassName("clip");
+    audios.forEach((item) => {
+      item.pause();
+      item.currentTime = 0;
+    });
     const audio = document.getElementById(drumPadId);
     audio.currentTime = 0;
+    audio.volume = props.volume;
     audio.play();
   };
   return (
@@ -24,8 +32,9 @@ const DrumPadGroup = (props) => {
           className="drum-pad"
           onClick={() => {
             playAudio(item.key);
-            props.setDescription(item.description.toUpperCase());
+            props.setDescription(item.description);
           }}
+          disabled={props.power}
         >
           {item.key}
           <audio id={item.key} className="clip" src={item.audio}></audio>
@@ -36,5 +45,3 @@ const DrumPadGroup = (props) => {
 };
 
 export default DrumPadGroup;
-
-// src={require("../../assets/audio/bankOne/mixkit-cowbell-sharp-hit-1743.wav")}

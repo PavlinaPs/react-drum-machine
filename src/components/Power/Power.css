@@ -1,0 +1,11 @@
+.power-button {
+  width: 3rem;
+  height: 2rem;
+  color: var(--color-dark);
+  font-family: var(--ff);
+  font-weight: var(--fw-bold);
+  border: 0.2rem solid var(--color-4);
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
+  border-radius: 20%;
+  cursor: pointer;
+}

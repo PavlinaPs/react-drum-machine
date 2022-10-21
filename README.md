@@ -73,6 +73,7 @@ I need to improve in React.js alone and in combination with Bootstrap & Sass cus
 - [how to use map in react to create multiple component?](https://stackoverflow.com/questions/69318193/how-to-use-map-in-react-to-create-multiple-component) on Stack Overflow
 - [Require file with a variable in React JS](https://stackoverflow.com/questions/38374344/require-file-with-a-variable-in-react-js) on Stack Overflow
 - [onKeyPress Vs. onKeyUp and onKeyDown](https://stackoverflow.com/questions/3396754/onkeypress-vs-onkeyup-and-onkeydown) on Stack Overflow
+- [Creating A Custom Range Input That Looks Consistent Across All Browsers](https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/)
 
 ## Author
 
