@@ -26,20 +26,12 @@ Fulfill the user stories and get all of the tests to pass. You can use any mix o
 
 ### Screenshot
 
-| Desktop layout |
-| :------------: |
-
-![Desktop layout](./screenshots/screenshot-desktop.jpg)
-
-| Mobile layout |
-| :-----------: |
-
-![Mobile layout](./screenshots/screenshot-mobile.jpg)
+![](./public/screenshot.jpg)
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/PavlinaPs/react-drum-machine
+- Live Site URL: https://pavlinaps.github.io/react-drum-machine/
 
 ## My process
 
