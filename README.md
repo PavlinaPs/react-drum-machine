@@ -2,7 +2,7 @@
 
 # Build a Drum Machine
 
-This is a solution to the [Build a Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine), the third of 5 projects to earn the Front End Development Libraries certification. FreeCodeCamp's mission is to help people learn to code for free.
+This is a solution to the [Build a Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine), third of 5 projects to earn the Front End Development Libraries certification. FreeCodeCamp's mission is to help people learn to code for free.
 
 ## Table of contents
 
@@ -46,10 +46,11 @@ Fulfill the user stories and get all of the tests to pass. You can use any mix o
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- [Sass](https://sass-lang.com/)
 - mobile first approach
 
 ### What I learned
+
+The biggest challenge was to connect the locally stored audio file to the App. There isn't much help on the internet. When I included a link to an online file, it worked fine. In the end I figured it out this way, although I am not sure it is correct.
 
 ```js
 const bankOneData = [
@@ -61,9 +62,36 @@ const bankOneData = [
   },
 ```
 
+I created a shared css file with custom variables and imported it to components where needed. Every component has its own css file as well. First I wanted to use Sass, but with these modular css files and in such a small project I decided against it. Of course I could have used mixins with Sass, but again, such a small project is fine without it.
+
+```js
+import React from "react";
+import "../shared.css";
+import "./BankSwitch.css";
+```
+
+I learned to style a button when not disabled:
+
+```css
+.switch-toggle-button:not(:disabled):hover {
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
+}
+```
+
+And when it is disabled:
+
+```css
+.switch-toggle-button:disabled {
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+}
+```
+
 ### Continued development
 
 I need to improve in React.js alone and in combination with Bootstrap & Sass customizations or Tailwind and code more complicated projects.
+
+I would also like to code this project with Redux.
 
 ### Useful resources
 
@@ -80,6 +108,7 @@ I need to improve in React.js alone and in combination with Bootstrap & Sass cus
 - Website - [My portfolio](https://pavlinaps.github.io/my-portfolio/)
 - freeCodeCamp - [@pavlina1](https://www.freecodecamp.org/pavlina1)
 - Frontend Mentor - [@PavlinaPs](https://www.frontendmentor.io/profile/PavlinaPs)
+- Codewars - [PavlinaPs](https://www.codewars.com/users/PavlinaPs)
 - Twitter - [@PPsarsky](https://www.twitter.com/PPsarsky)
 
 ## Acknowledgments

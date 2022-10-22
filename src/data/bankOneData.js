@@ -1,4 +1,4 @@
-// You can not directly import your json array from the JSON file in react. To achieve that you must store your JSON array in a variable and then export default your JSON array. By Doing this you can easily import it in your component.
+// You cannot directly import your json array from the JSON file in react. To achieve that you must store your JSON array in a variable and then export default your JSON array. By Doing this you can easily import it in your component.
 
 const bankOneData = [
   {

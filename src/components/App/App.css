@@ -18,6 +18,7 @@ body {
   );
   border: 5px solid #aec774;
   border-radius: 10px;
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem var(--color-dark));
 }
 
 .title-power-container {

@@ -14,6 +14,7 @@ const DrumPadGroup = (props) => {
   });
   const playAudio = (drumPadId) => {
     const audios = document.getElementsByClassName("clip");
+    // stop current audio from playing
     audios.forEach((item) => {
       item.pause();
       item.currentTime = 0;
