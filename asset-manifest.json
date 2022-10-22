@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-drum-machine/static/css/main.e7c1a8c1.css",
+    "main.js": "/react-drum-machine/static/js/main.69220502.js",
+    "static/media/mixkit-clapping-fast-480.wav": "/react-drum-machine/static/media/mixkit-clapping-fast-480.2f78ad472464c0dfccbf.wav",
+    "static/media/mixkit-rhythmic-audience-clapping-loop-522.wav": "/react-drum-machine/static/media/mixkit-rhythmic-audience-clapping-loop-522.236a7a1b2129397248a5.wav",
+    "static/media/mixkit-animated-small-group-applause-523.wav": "/react-drum-machine/static/media/mixkit-animated-small-group-applause-523.04224f99a593459a1bf8.wav",
+    "static/media/mixkit-happy-child-laughing-2265.wav": "/react-drum-machine/static/media/mixkit-happy-child-laughing-2265.3dcc1e32f5cd659cd35a.wav",
+    "static/media/mixkit-kid-giggle-laugh-431.wav": "/react-drum-machine/static/media/mixkit-kid-giggle-laugh-431.cd6dee34ede0f3e1d98e.wav",
+    "static/media/mixkit-hand-tribal-drum-562.wav": "/react-drum-machine/static/media/mixkit-hand-tribal-drum-562.dd4e8bb192aec5152ce9.wav",
+    "static/media/mixkit-party-trumpet-horn-isolated-526.wav": "/react-drum-machine/static/media/mixkit-party-trumpet-horn-isolated-526.5f9a94343d3d690d1d44.wav",
+    "static/media/mixkit-quest-game-heavy-stomp-v-3049.wav": "/react-drum-machine/static/media/mixkit-quest-game-heavy-stomp-v-3049.1e3349c4a14bcf9832bd.wav",
+    "static/media/mixkit-tribal-dry-drum-558.wav": "/react-drum-machine/static/media/mixkit-tribal-dry-drum-558.39d05caf942cc1e1ace3.wav",
+    "static/media/mixkit-cowbell-sharp-hit-1743.wav": "/react-drum-machine/static/media/mixkit-cowbell-sharp-hit-1743.f9d4d783b9cd432daf06.wav",
+    "static/media/mixkit-old-cartoon-says-thank-you-383.wav": "/react-drum-machine/static/media/mixkit-old-cartoon-says-thank-you-383.21616551b3e3813a0322.wav",
+    "static/media/mixkit-quick-funny-kiss-2193.wav": "/react-drum-machine/static/media/mixkit-quick-funny-kiss-2193.b4eec75e3b89b2c379f9.wav",
+    "static/media/mixkit-light-button-2580.wav": "/react-drum-machine/static/media/mixkit-light-button-2580.921c9bb7629c541b6a0b.wav",
+    "static/media/mixkit-typewriter-hit-1362.wav": "/react-drum-machine/static/media/mixkit-typewriter-hit-1362.1b31c6bb7ace5335b1eb.wav",
+    "static/media/mixkit-little-child-sneeze-2211.wav": "/react-drum-machine/static/media/mixkit-little-child-sneeze-2211.c0ac9f8203485081eeb6.wav",
+    "static/media/mixkit-metal-hammer-hit-833.wav": "/react-drum-machine/static/media/mixkit-metal-hammer-hit-833.578c288da8456fbd24ed.wav",
+    "static/media/mixkit-on-or-off-light-switch-tap-2585.wav": "/react-drum-machine/static/media/mixkit-on-or-off-light-switch-tap-2585.1b36d2edfd59606dc2a2.wav",
+    "static/media/mixkit-hard-typewriter-hit-1364.wav": "/react-drum-machine/static/media/mixkit-hard-typewriter-hit-1364.5bbb644c9c5d57d373bb.wav",
+    "static/media/mixkit-quick-switch-click-2582.wav": "/react-drum-machine/static/media/mixkit-quick-switch-click-2582.2cabc74ade5c785c4803.wav",
+    "index.html": "/react-drum-machine/index.html",
+    "main.e7c1a8c1.css.map": "/react-drum-machine/static/css/main.e7c1a8c1.css.map",
+    "main.69220502.js.map": "/react-drum-machine/static/js/main.69220502.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7c1a8c1.css",
+    "static/js/main.69220502.js"
+  ]
+}
